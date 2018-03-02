@@ -6,7 +6,7 @@ class TrayIcon extends Tray {
   constructor(iconPath, appWindow, Tooltip) {
     //  Extends from Tray
     super(iconPath);
-
+    
     //  Set app window
     this.appWindow = appWindow;
     //  Set tooltip
